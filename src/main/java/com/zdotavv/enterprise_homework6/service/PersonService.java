@@ -10,7 +10,7 @@ public interface PersonService {
 
     Person getPersonById(Long idPerson) throws NotFoundException;
 
-    Person updatePerson(Person personD) throws NotFoundException;
+    Person updatePerson(Person person) throws NotFoundException;
 
     void deletePerson(Long idPerson) throws NotFoundException;
 
